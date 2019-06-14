@@ -25,7 +25,7 @@ nombreJug2 = input('Ingrese el nick del jugador 2: ')
 while(vida_juagdor1 > 0 and vida_juagdor2 > 0):
     if turno == 1:
         rand = randrange(randrange(1,20),20)
-        import pdb; pdb.set_trace()
+        #import pdb; pdb.set_trace()
         if rand > vida_juagdor2:
             vida_juagdor2 = 0
             continue
