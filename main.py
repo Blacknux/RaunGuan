@@ -18,31 +18,6 @@ banner ='''
      ░           ░  ░   ░              ░       ░    ░           ░  ░         ░
                                                                                '''
 print(banner)
-def banner_pito():
-    print('''
-          　　　　　▄█▀█▀█▄
-　　　　　　　　▄█▀　　█　　▀█▄
-　　　　　　　▄█▀　　　　　　　▀█▄
-　　　　　　　█　　　　　　　　　　█
-　　　　　　　█　　　　　　　　　　█
-　　　　　　　▀█▄▄　　█　　　▄█▀
-　　　　　　　　　█　　▄▀▄　　█
-　　　　　　　　　█　▀　　　▀　█
-　　　　　　　　　█　　　　　　　█
-　　　　　　　　　█　　　　　　　█
-　　　　　　　　　█　　　　 　　 █
-　　　　　　　　　█　　　　　　　█
-　　　　　　　　　█　　　　　　　█
-　　　▄█▀▀█▄█　　　　　　　█▄█▀█▄
-　▄█▀▀　　　　▀　　　　　　　　　　　　▀▀█
-█▀　　　　　　　　　　　　　　　　　　　　　　▀█
-█　　　　　　　　　　　　　　　　　　　　　　　　█
-█　　　　　　　　　　　▄█▄　　　　　　　　　　█
-▀█　　　　　　　　　█▀　▀█　　　　　　　　█▀
-　▀█▄　　　　　　█▀　　　▀█　　　　　▄█▀
-　　　▀█▄▄▄█▀　　　　　　▀█▄▄▄█▀
-
-          ''')
 nombreJug1 = input('Ingrese el nick del jugador 1: ')
 nombreJug2 = input('Ingrese el nick del jugador 2: ')
 # print('\n')
@@ -79,7 +54,5 @@ while(vida_juagdor1 > 0 and vida_juagdor2 > 0):
 else:
     if vida_juagdor1 <= 0:
         print('#'*30+'\n{} es the WINNER!!!!\n'.format(nombreJug2)+'#'*30)
-        banner_pito()
     elif(vida_juagdor2 <= 0):
         print('#'*30+'\n{} es the WINNER!!!!\n'.format(nombreJug1)+'#'*30)
-        banner_pito()
